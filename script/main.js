@@ -11,7 +11,7 @@ const fetchData = () => {
               .querySelector(`[data-node-name*="${customData}"]`)
               .setAttribute("src", data[customData]);
           } else {
-            document.querySelector(`[data-node-name*="${customData}"]`).innerText = data[customData];
+            document.querySelector(`[data-node-name*="${customData}"]`).innerHTML = data[customData];
           }
         }
 
@@ -32,11 +32,9 @@ const animationTimeline = () => {
 
   textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
     .split("")
-    .join("</span><span>")}</span`;
+    .join("</span><span>")}</span>`;
 
-  hbd.innerHTML = `<span>${hbd.innerHTML
-    .split("")
-    .join("</span><span>")}</span`;
+  hbd.innerHTML = `<span>${hbd.innerHTML}</span>`;
 
   const ideaTextTrans = {
     opacity: 0,

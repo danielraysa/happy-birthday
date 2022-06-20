@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style/style.css">
 </head>
 
-<body>
+<body id="app" onclick="playMusic()">
   <div class="container">
     <div class="one">
       <h1 class="one">
@@ -131,14 +131,20 @@
   <script type="application/javascript" src="script/main.js"></script>
 
   <script>
+    var playState = false
     const player = new Howl({
       src: ['assets/Happy Birthday! - Jazzy Piano Arrangement by Jonny May.mp3'],
       html5: true,
       autoplay: true
     })
-    /* setTimeout(function() {
-      player.play()
-    }, 2000) */
+    setInterval(playMusic, 3000);
+
+    function playMusic() {
+      if(!playState) {
+        player.play()
+        playState = !playState
+      }
+    }
   </script>
 </body>
 </html>

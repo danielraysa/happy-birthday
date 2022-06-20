@@ -2,8 +2,8 @@
   "greeting": "Hi",
   "name": "Gusti",
   "greetingText": "It's been a long journey, right?",
-  "wishText": "May the force be with you",
-  "imagePath": "img/gusti.png",
+  "wishText": "May the force be with you 😇",
+  "imagePath": "img/gusti.jpeg",
   "text1": "It's your birthday! 🥳",
   "textInChatBox": "Selamat ulang tahun, WYUATB, GBU....",
   "sendButtonLabel": "Send",
@@ -16,8 +16,8 @@
   "smiley": "❤️",
   "bigTextPart1": "S",
   "bigTextPart2": "O",
-  "wishHeading": "Happy Birthday! 🎉🥳",
-  "outroText": "<a href=\"img/gift.jpg\" target=\"_blank\">Get your gift now</a> and tell me if you liked it.",
+  "wishHeading": "🎉 Happy Birthday! 🥳🎊",
+  "outroText": "<a href=\"img/gift.jpeg\" target=\"_blank\">Get your gift now</a> and tell me if you liked it.",
   "replayText": "Or click, if you want to watch it again.",
   "outroSmiley": "😆"
 }
